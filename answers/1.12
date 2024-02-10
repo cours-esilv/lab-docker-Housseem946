@@ -1,1 +1,2 @@
-docker run -d -p 80:80 --env WS_BACK_URL=http;//localhost:5000 my-python-app-front 
+docker run -d -p 8080:80 --env WS_BACK_URL=http://localhost:5000 my-python-app-front 
+
